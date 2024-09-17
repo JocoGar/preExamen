@@ -3,6 +3,7 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 const db = require('./app/config/db.config.js');
 const usuarioRouter = require('./app/routers/usuario.router.js');
+const libroRouter = require('./app/routers/libro.router.js');
 
 const app = express();
 
@@ -22,6 +23,8 @@ db.sequelize.sync({ force: false }).then(() => {
 
 
 app.use('/', usuarioRouter);
+app.use('/', libroRouter);
+
 
 app.get("/", (req, res) => {
   res.json({ message: "Bienvenidos al proyecto de usuarios" });
