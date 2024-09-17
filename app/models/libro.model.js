@@ -26,7 +26,7 @@ module.exports = (sequelize, Sequelize) => {
             type: Sequelize.STRING
         },
         cantidad_disponible:{
-            type: Sequelize.STRING
+            type: Sequelize.INTEGER
         },
         ubicacion:{
             type: Sequelize.STRING
