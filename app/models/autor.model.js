@@ -19,6 +19,8 @@ module.exports = (sequelize, Sequelize) => {
         fecha_nacimiento: {
             type: Sequelize.DATE
         }
+     }, {
+         tableName: 'autores'
 
     });
     return Autor;
