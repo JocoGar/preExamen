@@ -2,6 +2,7 @@ const express = require('express');
 const router = express.Router();
 const usuarioController = require('../controllers/usuario.controller.js');
 
+
 router.post('/api/usuarios/create', usuarioController.create);
 router.get('/api/usuarios/all', usuarioController.retrieveAllUsuarios);
 router.get('/api/usuarios/onebyid/:id', usuarioController.getUsuarioById);
