@@ -1,9 +1,9 @@
 const env={
-    host: 'dpg-cr6jn5qj1k6c73d5eps0-a',
+    host: 'dpg-crq2120gph6c73a5t1k0-a',
     port: 5432,
-    username: 'antigua_umg2024_10867_dtdb_user',
-    password: 'dU5Bdxoe42cFfbeRAJxVuFnU5In7tbG2',
-    database: 'antigua_umg2024_10867_dtdb',
+    username: 'dbparcial_10867_user',
+    password: '19H16uC6HcTdaaDvOw8KdUcZH3LPawFn',
+    database: 'dbparcial_10867',
   dialect: 'postgres',
   
   pool:{
